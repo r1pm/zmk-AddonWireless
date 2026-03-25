@@ -39,10 +39,6 @@
             kscan = <&kscan_matrix>;
         };
 
-        direct {
-            kscan = <&kscan_enc>;
-            column-offset = <5>; 
-        };
     };
 
 
