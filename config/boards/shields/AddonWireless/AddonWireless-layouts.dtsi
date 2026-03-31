@@ -3,9 +3,9 @@
 / {
     macropad_physical_layout: macropad_physical_layout {
         compatible = "zmk,physical-layout";
-        display-name = "AddonWireless";
-        transform = <&default_transform>;
-        kscan = <&kscan0>;
+        display-name = "Macro pad";
+        transform = <&transform>;
+        kscan = <&kscan>;
 
         keys  //                     w   h      x    y     rot    rx    ry
             = <&key_physical_attrs 100 100      0    0       0     0     0>
