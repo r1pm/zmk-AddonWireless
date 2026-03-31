@@ -1,11 +1,19 @@
 #include <physical_layouts.dtsi>
+#include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    macropad_physical_layout: macropad_physical_layout {
-        compatible = "zmk,physical-layout";
-        display-name = "Add";
-        transform = <&transform>;
-        kscan = <&kscan>;
+    chosen {
+		zmk,physical-layout = &default_layout;
+		zmk,studio-rpc-uart = &uart1;
+    };
+
+    default_layout: default_layout {
+		compatible = "zmk,physical-layout";
+		display-name = "Default";
+		
+		transform = <&transform>;
+		kscan = <&kscan>;
+
         keys  //                     w   h      x    y     rot    rx    ry
             = <&key_physical_attrs 100 100      0    0       0     0     0>
             , <&key_physical_attrs 100 100      0  100       0     0     0>
