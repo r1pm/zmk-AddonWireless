@@ -6,7 +6,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    model = "contoh";
+    model = "AddonWireless";
 
     chosen {
         zmk,kscan = &kscan;

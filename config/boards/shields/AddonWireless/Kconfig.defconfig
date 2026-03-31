@@ -1,5 +1,5 @@
 if SHIELD_MY_KEYBOARD
 config ZMK_KEYBOARD_NAME
-    default "contoh"
+    default "AddonWireless"
 
 endif
