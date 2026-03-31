@@ -5,7 +5,7 @@
  */
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "AddonWireless_layouts.dtsi"
+#include "AddonWireless-layouts.dtsi"
 
 / {
     chosen {
